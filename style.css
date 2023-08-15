@@ -1,0 +1,110 @@
+/* ============
+   GLOBAL STYLES
+   ============ */
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+}
+
+div {
+    outline: 1px solid black;
+}
+
+/* ============
+   LEFT SIDEBARD
+   ============ */
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 20vw;
+}
+
+/* ============
+   DASHBOARD BODY
+   ============ */   
+.dash-body {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+}
+
+.dash-content {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr;
+    margin: 16px;
+    gap: 16px;
+}
+
+/* TOP BAR MENU 
+***************************/
+.dash-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15vh;
+    padding: 16px;
+}
+
+.dash-menu-row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    padding: 8px;   
+}
+
+#search-box {
+    background-color: rgb(221, 220, 220);
+    border-radius: 16px;
+    width: clamp(200px, 50vw, 50vw);
+}
+
+.dash-menu-row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.actions {
+    display: flex;
+}
+
+.button {
+    width: 80px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+/* PROJECT CONTAINER */   
+.project-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.project {
+    height: clamp(10vh, 20vh, 40vh);
+    border-radius: 8px;
+}
+
+/* META INFORMATION */
+.meta-tiles {
+    display: grid;
+    grid-template-columns: 1;
+    gap: 16px;
+}
+
+.meta-tile {
+    border-radius: 8px;
+}

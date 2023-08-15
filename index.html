@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+
     <div class="sidebar">
         <div>logo</div>
         <div id="sidebard-main">
@@ -23,13 +24,40 @@
             <div id="privacy">Privacy</div>
         </div>
     </div>
+
     <div class="dash-body">
-        <div class="dash-nav">Hi there...</div>
+        <div class="dash-menu">
+            <div class="dash-menu-row1">
+                <div class="search">
+                    <div>icon</div>
+                    <div id="search-box"></div>
+                </div>
+                <div class="account">account</div>
+            </div>
+            <div class="dash-menu-row2">
+                <div class="welcome">Welcome</div>
+                <div class="actions">
+                    <div class="button">New</div>
+                    <div class="button">Upload</div>
+                    <div class="button">Share</div>
+                </div>
+            </div>
+        </div>
         <div class="dash-content">
-            <div>Projects</div>
-            <div>Announcements</div>
-            <div>Trending</div>
+            <div class="project-container">
+                <div class="project">p1</div>
+                <div class="project">p2</div>
+                <div class="project">p3</div>
+                <div class="project">p4</div>
+                <div class="project">p5</div>
+                <div class="project">p6</div>
+            </div>
+            <div class="meta-tiles">
+                <div class="meta-tile" id="announcements">announcements</div>
+                <div class="meta-tile" id="trending">trending</div>
+            </div>
         </div>
     </div>
+    
 </body>
 </html>
