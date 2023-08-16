@@ -28,6 +28,31 @@ div {
     font-weight: 500;
 }
 
+.svg-container#main-logo {
+    fill: white;
+    height: 50px;
+    width: 50px;
+}
+
+#main {
+    height: fit-content;
+    font-size: 32px;
+    align-items: center;
+}
+
+.nav-selection {
+    display: flex;
+    padding: 8px;
+    gap: 8px;
+    align-items: center;
+}
+
+.svg-container {
+    fill: white;
+    height: 20px;
+    width: 20px;
+}
+
 /* ============
    DASHBOARD BODY
    ============ */   
