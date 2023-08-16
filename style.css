@@ -20,8 +20,8 @@ div {
    ============ */
 .sidebar {
     display: grid;
-    grid-template-columns: 1fr 4fr;
     grid-template-rows: 2fr repeat(9 1fr);
+    grid-template-columns: 1fr 4fr;
     grid-auto-flow: column;
     width: 20vw;
     padding-bottom: 40vh;
