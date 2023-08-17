@@ -12,7 +12,7 @@ body {
 }
 
 div {
-   outline: 1px solid black;
+   /*outline: 1px solid black;*/
 }
 
 /* ============
@@ -59,7 +59,7 @@ div {
 .dash-body {
     display: flex;
     flex-direction: column;
-    width: 80vw;
+    width: 84vw;
     margin-right: 8px;
     background-color: #E2E8F0;
 }
@@ -123,8 +123,8 @@ div {
 
 .button {
     width: 70px;
-    margin: 16px;
-    padding: 4px;
+    margin: 12px;
+    padding: 8px;
     border-radius: 20px;
     background-color: #1A92D3;
     color: #FFFFFF;
