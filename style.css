@@ -12,7 +12,7 @@ body {
 }
 
 div {
-   outline: 1px solid black; 
+   /*outline: 1px solid black; */
 }
 
 /* ============
@@ -80,6 +80,9 @@ div {
     justify-content: space-between;
     height: 15vh;
     padding: 16px;
+    background-color: #FFFFFF;
+    border-bottom: #717171;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .dash-menu-row1 {
@@ -147,6 +150,31 @@ div {
     border-left: 8px solid orange;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-content {
+    padding: 12px;
+}
+
+.project-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 4px;
+}
+
+.project-desc {
+    font-size: 12px;
+    color: #717171;
+}
+
+.project-actions {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+    margin: 8px;
 }
 
 /* META INFORMATION */
