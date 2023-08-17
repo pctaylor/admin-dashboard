@@ -12,7 +12,7 @@ body {
 }
 
 div {
-   /*outline: 1px solid black; */
+   outline: 1px solid black;
 }
 
 /* ============
@@ -122,10 +122,15 @@ div {
 }
 
 .button {
-    width: 80px;
-    padding: 8px;
-    margin: 8px;
+    width: 70px;
+    margin: 16px;
+    padding: 4px;
     border-radius: 20px;
+    background-color: #1A92D3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
 }
 
 /* Dashboard Content
@@ -142,6 +147,7 @@ div {
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
+    margin-top: 8px;
 }
 
 .project {
@@ -172,9 +178,15 @@ div {
 
 .project-actions {
     display: flex;
-    flex-direction: row-reverse;
-    gap: 8px;
-    margin: 8px;
+    justify-content: end;
+    gap: 16px;
+    margin: 16px;
+}
+
+.action-container {
+    height: 20px;
+    width: 20px;
+    justify-self: center;
 }
 
 /* META INFORMATION */
@@ -186,5 +198,8 @@ div {
 
 .meta-tile {
     border-radius: 8px;
-    height: calc(100% - 24px);
+    height: calc(100% - 32px);
+    margin-top: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #FFFFFF;
 }
