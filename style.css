@@ -78,7 +78,7 @@ div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 15vh;
+    height: 16vh;
     padding: 16px;
     background-color: #FFFFFF;
     border-bottom: #717171;
@@ -96,10 +96,16 @@ div {
     padding: 8px;   
 }
 
+.search-container {
+    height: 20px;
+    width: 20px;
+}
+
 #search-box {
     background-color: rgb(221, 220, 220);
     border-radius: 16px;
-    width: clamp(200px, 50vw, 50vw);
+    border: 0px;
+    width: clamp(200px, 40vw, 50vw);
 }
 
 .account {
@@ -115,6 +121,19 @@ div {
 
 .welcome {
     display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.account-welcome-icon {
+    height: 70px;
+    width: 70px;
+}
+
+.welcome-message {
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 4px;
 }
 
 .actions {
@@ -137,7 +156,6 @@ div {
 ***************************/
 .card-container {
     font-size: 20px;
-    gap: 16px;
 }
 
 
@@ -198,9 +216,10 @@ div {
 
 .meta-tile {
     border-radius: 8px;
-    height: calc(100% - 32px); /*FIX THIS*/
+    height: clamp(15vh, 29vh, 60vh); /*FIX THIS*/
     margin-top: 8px;
     padding-left: 16px;
+    padding-right: 16px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
 }
@@ -208,11 +227,7 @@ div {
 #announcements {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-}
-
-.announce {
-    padding: px;
+    justify-content: center;
 }
 
 .announce-desc {
@@ -221,11 +236,13 @@ div {
 }
 
 .announce:not(:last-child) {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #717171;
+    padding-bottom: 12px;
 }
 
 .announce:not(:first-child) {
-    border-top: 1px solid black;
+    border-top: 1px solid 717171;
+    padding-top: 12px;
 }
 
 #trending {
@@ -240,7 +257,7 @@ div {
 }
 
 .trending-user, .announce-title {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
 }
 
